@@ -1,0 +1,42 @@
+.form_login_subscription{
+    margin-top: 100px
+}
+.form_login_subscription > div{
+    margin-bottom: 25px
+}
+.form_login_subscription > div > div{
+    background-color: rgba(45,45,45,.20);
+    padding: 20px;
+    padding-bottom: 50px
+}
+.form_login_subscription form .input-group .input-group-text img{
+    width: 20px;
+    height: 20px
+}
+.form_login_subscription form .input-group{
+    width: 100%;
+    border: white 1px solid;
+    background-color: transparent;
+}
+.form_login_subscription form .input-group .input-group-text,
+.form_login_subscription form .input-group .form-control{
+    background-color: transparent;
+    border: none
+}
+.form_login_subscription header{
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+    font-size: 25px
+}
+.form-control::-webkit-input-placeholder { color: white; }
+.form_login_subscription .btn{
+    width: 150px
+}
+@media(max-width: 800px){
+    .form_login_subscription .btn{
+        width: 100%;
+        margin-bottom: 10px
+    }
+}
+
